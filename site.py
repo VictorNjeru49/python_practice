@@ -26,4 +26,4 @@ if has_good_credit or has_good_credit:
 if has_good_credit and not has_criminal_record:
     loan_amount = price - down_payment
     print(f"loan amount:{loan_amount}")
-    print('eligible for loan amount')
+    print('eligible for loan amount') # type: ignore

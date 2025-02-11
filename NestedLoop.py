@@ -1,3 +1,6 @@
+import utils
+from utils import find_max
+
 for x in range( 5):
     for y in range( 4):
         print(f"({x}, {y})")
@@ -14,15 +17,14 @@ for i in range(len(number)):
 # *****
 # ***
 # **
-for x_count in numbers:
+for x_count in number:
     output = ''
     for y_count in range(x_count):
         print(output)
 
-number = [4, 8, 3, 20, 46, 66]
-max = number[0]
 
-for i  in number:
-    if number > max:
-        max = number
-        print(max)
+
+number = [4, 8, 3, 20, 46, 66]
+maximum =find_max(number)
+
+print(f"The maximum number is: {maximum}")

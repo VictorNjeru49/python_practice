@@ -24,7 +24,7 @@ while command.lower() !="quit":
     
     elif command().startswith("update "):
 
-started = False
+        started = False
 
 while True:
     command = input ('>').lower() 

@@ -1,6 +1,6 @@
 def emoji_convertor():
     words = message.split("\n")
- emoji = {
+    emoji = {
     "grinning": "😬",
     "laughing": "😂",
     "smiling": "😁",
@@ -11,10 +11,11 @@ def emoji_convertor():
     "heart": "❤️"
  }
  
- output =""
- for word in words:
+output =""
+
+for word in words:
     output += emoji.get(word, word) + " "
-    return output
+   return output
 
 
 message = input("> ")

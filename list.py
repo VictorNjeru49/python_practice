@@ -1,3 +1,4 @@
+
 number = [ 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 # append(50)
@@ -17,7 +18,7 @@ numbers = [1, 2, 3, 4, 5, 6, 7]
 for i in numbers:
     if i in not in uniques:
         uniques.append(i)
-print(uniques)
+        print(uniques)
 
 coordinates = (1, 2, 3, 4, 5, 6, 7)
 # x = coordinates[0]
@@ -52,8 +53,9 @@ digital_mapping = {
     "9": "Nine",
     "0": "Zero"
 }
- output = ""
- for digit in phone:
+output = ""
+
+for digit in phone:
      output += digital_mapping.get(digit, "Invalid digit") + " "
 
      print(output)
